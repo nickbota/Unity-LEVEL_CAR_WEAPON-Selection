@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17fd53ee9f701914aaf09802c04399de, type: 3}
+  m_Name: 3_Shotgun
+  m_EditorClassIdentifier: 
+  gunName: SMG
+  damage: 8
+  accuracy: 3
+  range: 2
+  fireRate: 2
+  gunModel: {fileID: 5993101819721887886, guid: 4e26fd911e4b90942adf6858144a8cf0,
+    type: 3}
