@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a400737c75b6ee6458a1b692215c1f1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6131a09aecdb1da489561c941fbc2464, type: 3}
   m_Name: 2_Bus
   m_EditorClassIdentifier: 
   carName: Bus
-  carDescription: Old but reliable
+  carDescription: Hippie Bus
   carPrice: 500
   speed: 20
-  acceleration: 20
-  handling: 60
+  acceleration: 25
+  handling: 40
   carModel: {fileID: 6287319582821184461, guid: 77653068d1cd5254c82b4e0048353235,
     type: 3}

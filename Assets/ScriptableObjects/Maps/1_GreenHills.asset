@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4606a6662462d024182216efcabc3dcf, type: 3}
+  m_Script: {fileID: 11500000, guid: fddafd0b9a85d144eaddb506126da2d9, type: 3}
   m_Name: 1_GreenHills
   m_EditorClassIdentifier: 
-  mapIndex: 0
+  levelIndex: 0
   mapName: 1. Green Hills
-  mapDescription: Weird Looking Hills
-  nameColor: {r: 0.03137255, g: 0.5647059, b: 0.22352943, a: 1}
+  mapDescription: Weird looking hills
+  nameColor: {r: 0.03137255, g: 0.6, b: 0.25882354, a: 1}
   mapImage: {fileID: 21300000, guid: c8c6db6b18f751e4f9b7919277f3bcde, type: 3}
-  sceneToLoad: {fileID: 102900000, guid: f5d8c72df6d9a584c8c3673ad97a95a4, type: 3}
+  sceneToLoad: {fileID: 102900000, guid: b12b8445ae11fe44799ae54e3961ab19, type: 3}

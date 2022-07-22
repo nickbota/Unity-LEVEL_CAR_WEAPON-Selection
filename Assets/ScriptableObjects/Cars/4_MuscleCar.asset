@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a400737c75b6ee6458a1b692215c1f1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6131a09aecdb1da489561c941fbc2464, type: 3}
   m_Name: 4_MuscleCar
   m_EditorClassIdentifier: 
   carName: Muscle Car
   carDescription: Family
   carPrice: 10000
-  speed: 60
-  acceleration: 60
-  handling: 40
+  speed: 70
+  acceleration: 90
+  handling: 50
   carModel: {fileID: 9193091905229099719, guid: 5a826e1a9f9a0a74fbf63d825c3e464a,
     type: 3}

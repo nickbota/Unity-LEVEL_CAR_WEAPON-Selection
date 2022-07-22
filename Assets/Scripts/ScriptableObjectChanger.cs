@@ -2,27 +2,27 @@
 
 public class ScriptableObjectChanger : MonoBehaviour
 {
-    [Header ("Scriptable Objects")]
     [SerializeField] private ScriptableObject[] scriptableObjects;
 
-    [Header("Display Scripts")]
-    [SerializeField] private MapDisplay mapDisplay;
+    [Header ("Display Scripts")]
+    [SerializeField] private MapUIDisplay mapDisplay;
     [SerializeField] private CarDisplay carDisplay;
     [SerializeField] private GunDisplay gunDisplay;
-    private int currentIndex;
+    private int currentMapIndex;
 
     private void Awake()
     {
-        ChangeScriptableObject(0);
+        ChangeMap(0);
     }
-    public void ChangeScriptableObject(int _change)
-    {
-        currentIndex += _change;
-        if (currentIndex < 0) currentIndex = scriptableObjects.Length - 1;
-        else if (currentIndex > scriptableObjects.Length - 1) currentIndex = 0;
 
-        if(mapDisplay != null) mapDisplay.DisplayMap((Map)scriptableObjects[currentIndex]);
-        if(carDisplay != null) carDisplay.DisplayCar((Car)scriptableObjects[currentIndex]);
-        if(gunDisplay != null) gunDisplay.DisplayGun((Gun)scriptableObjects[currentIndex]);
+    public void ChangeMap(int _index)
+    {
+        currentMapIndex += _index;
+        if (currentMapIndex < 0) currentMapIndex = scriptableObjects.Length - 1;
+        if (currentMapIndex > scriptableObjects.Length - 1) currentMapIndex = 0;
+        
+        if(mapDisplay != null) mapDisplay.UpdateMap((Map)scriptableObjects[currentMapIndex]);
+        if(carDisplay != null) carDisplay.UpdateCar((Car)scriptableObjects[currentMapIndex]);
+        if(gunDisplay != null) gunDisplay.UpdateGun((Gun)scriptableObjects[currentMapIndex]);
     }
 }

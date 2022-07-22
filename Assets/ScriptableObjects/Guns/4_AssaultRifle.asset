@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17fd53ee9f701914aaf09802c04399de, type: 3}
+  m_Script: {fileID: 11500000, guid: e18a8a35b43358e4899d0b0599e1d0ac, type: 3}
   m_Name: 4_AssaultRifle
   m_EditorClassIdentifier: 
   gunName: Assault Rifle
-  damage: 7
-  accuracy: 8
+  damage: 6
+  accuracy: 7
   range: 6
-  fireRate: 8
+  fireRate: 9
   gunModel: {fileID: 8405534939506985086, guid: 435627b7189784d49b345176263a22ac,
     type: 3}

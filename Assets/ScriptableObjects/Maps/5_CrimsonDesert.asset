@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4606a6662462d024182216efcabc3dcf, type: 3}
+  m_Script: {fileID: 11500000, guid: fddafd0b9a85d144eaddb506126da2d9, type: 3}
   m_Name: 5_CrimsonDesert
   m_EditorClassIdentifier: 
-  mapIndex: 4
+  levelIndex: 4
   mapName: 5. Crimson Desert
-  mapDescription: Who painted the sky red?
-  nameColor: {r: 0.8396226, g: 0.13861692, b: 0.3461146, a: 1}
+  mapDescription: Why is the sky pink?
+  nameColor: {r: 0.8509804, g: 0, b: 0.55382633, a: 1}
   mapImage: {fileID: 21300000, guid: 45082b89b62b9a548a5308d7d13dc722, type: 3}
-  sceneToLoad: {fileID: 102900000, guid: ce1a3d74a69934f45839e25b2dbe48e7, type: 3}
+  sceneToLoad: {fileID: 102900000, guid: 23aa0e4ecb977e748941183c20da1f73, type: 3}
